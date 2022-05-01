@@ -1,4 +1,4 @@
-.container-1, .container-2, .container-3{
+.container-1, .container-2, .container-3, .container-4, .container-5{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
@@ -53,10 +53,68 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 22px 0px 26px;
-    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
 }
 
 .flex-box-rps img:hover{
     box-shadow: 0px 10px 50px rgb(69, 174, 182);
 }
 
+.container-4 h2{
+    padding: 0px 0px 8px;
+    border-bottom: 1px solid black;
+}
+
+.flex-box-color-change{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ /* Blackjack */
+ 
+.blackjack-row-1,.blackjack-row-2{
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.blackjack-row-1 div{
+    background: url(images/greenbackground.jpg) center;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+}
+
+
+.blackjack-row-2{
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blackjack-row-2 button{
+    border: 1px solid black;
+}
+
+.blackjack-row-2 div{
+    display: flex;
+}
+
+.blackjack-row-3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
